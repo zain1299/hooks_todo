@@ -1,0 +1,79 @@
+#root {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.heading {
+  background-color: #a80d5b;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.formcontrol {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #d16692;
+  padding: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.btn {
+  background-color: rgb(225, 207, 226);
+  margin: 1rem;
+  font-weight: bold;
+  font-size: large;
+
+  /* padding: 1rem; */
+}
+.formbox {
+  font-family: serif;
+  font-weight: bold;
+}
+.btnreset {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  background-color: white;
+}
+
+.formbox input[type="text"] {
+  border: 0;
+  font-size: 1rem;
+  line-height: 1;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0.33333rem;
+}
+
+.list {
+  align-items: center;
+  display: flex;
+  font-size: 0.9rem;
+  justify-content: space-between;
+  min-height: 45px;
+  padding: 0.5rem 1rem;
+}
+.btndelete {
+  background-color: rgb(241, 53, 53);
+  font-weight: bolder;
+}
+.btncreate {
+  background-color: rgb(226, 138, 98);
+  font-weight: bolder;
+}
+.editinput {
+  background-color: none;
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  box-sizing: 0px;
+}
+.btnupdate {
+  background-color: rgb(187, 206, 241);
+  font-weight: bolder;
+}
